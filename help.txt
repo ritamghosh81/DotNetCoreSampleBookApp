@@ -1,0 +1,52 @@
+
+docker pull jenkins/jenkins:lts-jdk11
+
+docker run --name jenkinsmaster -p 8080:8080 -p 50000:50000 -v /home/user/jenkinsvolume:/var/jenkins_home jenkins/jenkins:lts-jdk11
+
+
+First time password: 23c2d1fe64a34185980303c25a034795
+
+user name: admin
+password: admin
+
+port 5432
+
+
+docker run --name userdb -p 8181:5432 -v /home/user/postgresvolume/userdb:/var/lib/postgresql/data -e POSTGRES_PASSWORD=sa -e POSTGRES_USER=sa -e POSTGRES_DB=userdb -d postgres
+
+docker run --name bookdb -p 8282:5432 -v /home/user/postgresvolume/bookdb:/var/lib/postgresql/data -e POSTGRES_PASSWORD=sa -e POSTGRES_USER=sa -e POSTGRES_DB=bookdb -d postgres
+
+docker run --name pgadmin -p 8383:80 -v /home/user/pgadminvolume:/root/.pgadmin -e PGADMIN_DEFAULT_EMAIL=admin@admin.com -e PGADMIN_DEFAULT_PASSWORD=admin -d dpage/pgadmin4
+
+http://10.40.9.78:8383/
+
+
+dotnet run --urls "http://localhost:5100"
+dotnet run --urls "http://localhost:5200"
+
+http://localhost:5100/WeatherForecast
+http://localhost:5100/booksapi/Books
+
+
+
+http://localhost:5200/WeatherForecast
+http://localhost:5200/loginapi/Account/signup
+
+---------------- GIT HELP ---------------------
+https://github.com/ritamghosh81/DotNetCoreSampleBookApp.git
+https://www.youtube.com/watch?v=HVsySz-h9r4&t=1227s
+git --version (to check version of git or to check git installed or not)
+git config --list (to check git's configuration or global variables)
+git clone <url> <where to clone>
+git remote -v (informaiton about the server repo )
+git branch -a (lists all the branches in local and server)
+git status
+git add -A (-A means add all files to staging area)
+git reset calc.py (to remove calc.py from stating area)
+git reset (without any file name, it removes all the files from stating area)
+git commit -m "any commit message" (-m stands for message)
+git log (to see the commits)
+git pull origin master (download from server)
+git push origin master (upload from local to server)
+
+
