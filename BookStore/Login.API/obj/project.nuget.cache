@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1XFbqi6D2p4i+crIkCPvRu5Acl/Ty9saXKqWPqKF2Bn+JEjfvFNOOYt4dfB0uctaHixvXOC8qk6fflMrzIOKg==",
+  "dgSpecHash": "SO1jcHrbm1dqIgfVvrianZDP80pQPZ1fZAnaFxetgXVu1SZBKFmCGO+bRCiw7YmGnYNDxbYZ/iz8L1XMczeYuw==",
   "success": true,
-  "projectFilePath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\Login.API\\Login.API.csproj",
+  "projectFilePath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\Login.API\\Login.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\righosh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\righosh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

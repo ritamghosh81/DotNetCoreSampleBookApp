@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1KGIzgQoDDV5owVfE1glUu0Hn9UzLcuY/NoEuu0Kw+gUWDJOFEi/oTdF+iR/u0E1ZcYBrr7K5oz9sVkwdiTasw==",
+  "dgSpecHash": "6h7usrq2+p2PElYgyaMW7R49kVTf0CvbEaqiUOK+E80cIqMY+Htb9kvI0po+XM1wva/GF0CckyA6HnHwj1LT7Q==",
   "success": true,
-  "projectFilePath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\BookStore.API.csproj",
+  "projectFilePath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\BookStore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\righosh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\righosh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

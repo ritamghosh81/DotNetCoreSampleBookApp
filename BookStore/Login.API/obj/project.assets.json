@@ -1555,11 +1555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\Login.API\\Login.API.csproj",
+      "projectUniqueName": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\Login.API\\Login.API.csproj",
       "projectName": "Login.API",
-      "projectPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\Login.API\\Login.API.csproj",
+      "projectPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\Login.API\\Login.API.csproj",
       "packagesPath": "C:\\Users\\righosh\\.nuget\\packages\\",
-      "outputPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\Login.API\\obj\\",
+      "outputPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\Login.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\righosh\\AppData\\Roaming\\NuGet\\NuGet.Config",

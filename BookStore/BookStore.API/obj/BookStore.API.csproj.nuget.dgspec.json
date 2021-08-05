@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\BookStore.API.csproj": {}
+    "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\BookStore.API.csproj": {}
   },
   "projects": {
-    "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\BookStore.API.csproj": {
+    "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\BookStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\BookStore.API.csproj",
+        "projectUniqueName": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\BookStore.API.csproj",
         "projectName": "BookStore.API",
-        "projectPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\BookStore.API.csproj",
+        "projectPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\BookStore.API.csproj",
         "packagesPath": "C:\\Users\\righosh\\.nuget\\packages\\",
-        "outputPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\asp-net-core-web-api-main\\BookStore\\BookStore.API\\obj\\",
+        "outputPath": "D:\\Ritam\\Personal\\Projects\\DotnetCore\\GitBookStoreApp\\DotNetCoreSampleBookApp\\BookStore\\BookStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\righosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
