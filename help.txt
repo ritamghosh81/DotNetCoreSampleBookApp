@@ -32,7 +32,34 @@ http://localhost:5100/booksapi/Books
 http://localhost:5200/WeatherForecast
 http://localhost:5200/loginapi/Account/signup
 
+---------- book store api ------------
+
+docker build -t bookapp .
+docker run -d --name bookstoreapi -p 8484:80 bookapp
+http://localhost:8484/weatherforecast
+http://172.17.0.1:8484/weatherforecast
+http://10.0.2.15:8484/weatherforecast
+
+----- login api ---------
+
+docker build -t loginapp .
+docker run -d --name loginapi -p 8585:81 loginapp
+http://localhost:8585/weatherforecast
+http://172.17.0.1:8585/weatherforecast
+http://10.0.2.15:8585/weatherforecast
+
+
 ---------------- GIT HELP ---------------------
+git clone -b master https://oAuthToken:x-oauth-basic@RestURLGitRepo localpath
+
+oAuthToken:	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
+GitRepo:	https://github.com/ritamghosh81/DotNetCoreSampleBookApp.git
+
+git clone -b master https://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:x-oauth-basic@github.com/ritamghosh81/DotNetCoreSampleBookApp.git /home/ritam/Core/GitTest/clone
+git clone -b master https://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:x-oauth-basic@github.com/ritamghosh81/DotNetCoreSampleBookApp.git ./clone
+docker-----
+RUN git clone -b master https://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:x-oauth-basic@github.com/ritamghosh81/DotNetCoreSampleBookApp.git ./clone
+----------------- general help ------------------------
 https://github.com/ritamghosh81/DotNetCoreSampleBookApp.git
 https://www.youtube.com/watch?v=HVsySz-h9r4&t=1227s
 git --version (to check version of git or to check git installed or not)

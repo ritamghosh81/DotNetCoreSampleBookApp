@@ -1,21 +1,21 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS baseapilogin
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS baseapi
 WORKDIR /app
-EXPOSE 80
+EXPOSE 81
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS buildapilogin
+FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS buildapi
 WORKDIR /src
-COPY ["Login.API\Login.API.csproj", "Login.API/"]
-RUN dotnet restore "Login.API\Login.API.csproj"
-COPY . .
-WORKDIR "/src/Login.API"
+RUN git clone -b master https://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:x-oauth-basic@github.com/ritamghosh81/DotNetCoreSampleBookApp.git /src
+WORKDIR "/src/BookStore/Login.API"
 RUN dotnet build "Login.API.csproj" -c Release -o /app/build
 
-FROM buildapilogin AS publish
+FROM buildapi AS publish
 RUN dotnet publish "Login.API.csproj" -c Release -o /app/publish
 
-FROM baseapilogin AS finalapi
+FROM baseapi AS finalapi
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Login.API.dll"]
+RUN chmod +x /app/Login.API
+ENTRYPOINT ["/app/Login.API"]
+CMD ["--urls","http://0.0.0.0:81"]

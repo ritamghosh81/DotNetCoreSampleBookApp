@@ -61,5 +61,21 @@ namespace Login.API.Controllers
         {
             return "this is not a secret";
         }
+
+
+        [HttpGet("sampleuser")]
+        [AllowAnonymous]
+        public SignUpModel GetSampleUser()
+        {
+            SignUpModel signUpModel = new SignUpModel
+            {
+                FirstName = "ritam",
+                LastName = "ghosh",
+                Email = "ritam@ritam.com",
+                Password = "Password@1",
+                ConfirmPassword = "Password@1"
+            };
+            return signUpModel;
+        }
     }
 }
